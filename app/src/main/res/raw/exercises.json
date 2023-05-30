@@ -1,0 +1,46 @@
+[
+    {
+      "name": "Push Up",
+      "image": "https://cdni.iconscout.com/illustration/premium/thumb/woman-doing-a-one-legged-push-up-on-the-floor-4029745-3360315.png?w=0&h=700",
+      "secondary_image": "https://media.istockphoto.com/photos/m-doing-all-for-a-better-me-picture-id1194421817?b=1&k=20&m=1194421817&s=170667a&w=0&h=CyuOKBY3Z2AuQyyxK1MnkHGIYydfHCgZgBW5ZgabSpA=",
+      "description": "(Juga disebut press-up dalam bahasa Inggris British) adalah latihan senam umum yang dimulai dari posisi tengkurap. Dengan menaikkan dan menurunkan tubuh menggunakan lengan, push-up melatih otot dada, trisep, dan deltoid anterior, dengan manfaat tambahan untuk sisa deltoid, serratus anterior, coracobrachialis dan bagian tengah tubuh secara keseluruhan. Push-up adalah latihan dasar yang digunakan dalam pelatihan atletik sipil atau pendidikan jasmani dan umumnya dalam pelatihan fisik militer. Mereka juga merupakan bentuk hukuman umum yang digunakan dalam militer, olahraga sekolah, dan beberapa disiplin seni bela diri",
+      "difficulty": "menengah",
+      "equipment": "Tidak ada peralatan",
+      "primary":"chest",
+      "secondary": "triceps"
+
+    },
+  {
+    "name": "Dumbbell Biceps Curl",
+    "image": "https://cdni.iconscout.com/illustration/premium/thumb/boy-lifting-dumbell-3051122-2543559.png?w=0&h=700",
+    "secondary_image": "https://media.istockphoto.com/photos/young-african-american-man-sitting-and-lifting-a-dumbbell-with-the-picture-id1162195270?b=1&k=20&m=1162195270&s=170667a&w=0&h=o5HC7lSq_bW7rqxhSvXNtxAGdppPDPiad_AGcv_Z9ZU=",
+    "description": "Bisep curl terutama menargetkan otot bisep brachii, brakialis dan brakioradialis. Bisep lebih kuat pada fleksi siku ketika lengan bawah supinated (telapak tangan menghadap ke atas) dan lebih lemah ketika lengan bawah pronated. [1] Brakioradialis paling efektif ketika telapak tangan menghadap ke dalam, dan brakialis tidak terpengaruh oleh rotasi lengan bawah. Oleh karena itu, tingkat rotasi lengan bawah mempengaruhi tingkat rekrutmen otot antara ketiga otot.",
+    "difficulty": "menengah",
+    "equipment": "dumbel",
+    "primary":"hamstring",
+    "secondary": "none"
+
+  },
+  {
+    "name": "Deadlift",
+    "image": "https://cdni.iconscout.com/illustration/premium/thumb/strong-woman-lifting-barbell-3857858-3313810.png?w=0&h=700",
+    "secondary_image": "https://media.istockphoto.com/photos/gym-woman-lifting-heavy-weights-in-gym-picture-id942286558?b=1&k=20&m=942286558&s=170667a&w=0&h=32UwMNJFrKLvH0m3KmcRNbfL-jDOm8qS23oQSNs0aPc=",
+    "description": "Deadlift adalah latihan beban di mana barbel atau bar yang dimuat diangkat dari tanah ke tingkat pinggul, batang tegak lurus dengan lantai, sebelum ditempatkan kembali di tanah. Ini adalah salah satu dari tiga latihan powerlifting, bersama dengan squat dan bench press. Deadlift telah terbukti meningkatkan kinerja lompatan vertikal dan tingkat produksi otot. Ini juga dapat dilihat sebagai latihan yang ideal untuk rehabilitasi lutut.",
+    "difficulty": "ahli",
+    "equipment": "Barbel",
+    "primary": "glutes",
+    "secondary": "hamstring, lowerback"
+
+  },
+  {
+    "name": "Crunch",
+    "image": "https://cdni.iconscout.com/illustration/premium/thumb/woman-training-abs-3857855-3313807.png?w=0&h=700",
+    "secondary_image": "https://media.istockphoto.com/photos/increasing-back-shoulder-and-arm-strength-picture-id1002863304?b=1&k=20&m=1002863304&s=170667a&w=0&h=oAVZx1ioeffLZiA0GAZZKwTlK5u2Emm6-yVFKgR3y34=",
+    "description": "Crunch adalah salah satu latihan perut yang paling populer. Ketika dilakukan dengan benar, itu melibatkan semua otot perut tetapi terutama bekerja otot rektus abdominis dan obliques. Hal ini memungkinkan keduanya membangun perut six-pack, dan mengencangkan perut. Sit-up menggunakan berat badan olahragawan sendiri untuk mengencangkan otot, dan direkomendasikan sebagai latihan murah yang dapat dilakukan di rumah.",
+    "difficulty": "pemula",
+    "equipment": "Tidak ada peralatan",
+    "primary":"abs",
+    "secondary": "none"
+
+  }
+]
