@@ -27,4 +27,44 @@
             app:popUpTo="@id/homeFragment"
             app:popUpToInclusive="true" />
     </fragment>
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="org.d3if2029.workout.ui.HomeFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="org.d3if2029.workout.ui.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second">
+        <action
+            android:id="@+id/action_secondFragment_to_addWorkoutActivity2"
+            app:destination="@id/addWorkoutActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="org.d3if2029.workout.ui.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_thirdFragment_to_gantiPasswordPerusahaanFragment"
+            app:destination="@id/gantiPasswordPerusahaanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addWorkoutActivity"
+        android:name="org.d3if2029.workout.db.AddWorkoutActivity"
+        android:label="AddWorkoutActivity" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="org.d3if2029.workout.ui.EditProfileFragment"
+        android:label="EditProfileFragment" />
+    <fragment
+        android:id="@+id/gantiPasswordPerusahaanFragment"
+        android:name="org.d3if2029.workout.ui.GantiPasswordPerusahaanFragment"
+        android:label="fragment_ganti_password_perusahaan"
+        tools:layout="@layout/fragment_ganti_password_perusahaan" />
 </navigation>

@@ -3,11 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/drawable-xxxhdpi/pick_background_menu_atas.xml" value="0.2175" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/drawable/ic_baseline_analytics_24.xml" value="0.1995" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/drawable/ic_baseline_filter_1_24.xml" value="0.1995" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/drawable/ic_baseline_filter_2_24.xml" value="0.1995" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/drawable/ic_baseline_filter_3_24.xml" value="0.1995" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1995" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1995" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/font/nunito_bold.xml" value="0.28020833333333334" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/font/nunito_semibold.xml" value="0.28020833333333334" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/font/poppins.xml" value="0.28020833333333334" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/activity_add_workou.xml" value="0.136" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/activity_edit_profile.xml" value="0.2" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/activity_main.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_blank_aja.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_edit_profile.xml" value="0.25" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_exercise_details.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_ganti_password_perusahaan.xml" value="0.25" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_home.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_home2.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_home3.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_pengaturan.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_second.xml" value="0.152" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_third.xml" value="0.22509057971014493" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/item_individual_exercise.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/workout_add.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/workout_item.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
       </map>
     </option>
   </component>
