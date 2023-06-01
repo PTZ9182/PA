@@ -16,7 +16,7 @@ class ExerciseRepository(private val exerciseDao: ExerciseDao) {
     }
 
     fun getAllOrSearch(difficulty: String): Flow<List<Exercise>> {
-        return if (difficulty == "all") {
+        return if (difficulty == "semua") {
             exerciseDao.getAllExercises()
         } else {
             exerciseDao.getByDifficulty(difficulty)

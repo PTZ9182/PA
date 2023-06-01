@@ -37,7 +37,7 @@ class ExerciseDetailsFragment : Fragment() {
        }
         val onBackPressedCallback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                findNavController().navigate(R.id.action_exerciseDetailsFragment_to_homeFragment)
+                findNavController().navigate(R.id.action_exerciseDetailsFragment_to_afterHomeFragment)
             }
         }
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, onBackPressedCallback)

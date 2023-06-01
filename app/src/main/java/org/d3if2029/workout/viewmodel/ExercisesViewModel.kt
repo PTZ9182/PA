@@ -11,7 +11,7 @@ import org.d3if2029.workout.entity.Exercise
 class ExercisesViewModel(application: Application) : AndroidViewModel(application)  {
 
     private val repository: ExerciseRepository
-    val difficulty = MutableStateFlow("all")
+    val difficulty = MutableStateFlow("semua")
 
     init {
        val exerciseDao = ExerciseDatabase

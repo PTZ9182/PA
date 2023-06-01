@@ -40,7 +40,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="40dp"
                     android:fontFamily="@font/poppins_bold"
-                    android:text="Trainings of any \nDifficulty level"
+                    android:text="Seluruh Tubuh \nMenengah"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold"
@@ -55,59 +55,17 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <LinearLayout
-        android:id="@+id/layout_chip"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_latihan"
         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
-        android:layout_height="wrap_content">
-
-        <com.google.android.material.chip.ChipGroup
-            android:id="@+id/chip_group_filter"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="8dp"
-            app:singleSelection="true">
-
-            <com.google.android.material.chip.Chip
-                android:layout_marginLeft="15dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Semua"
-                android:tag="semua"
-                style="@style/Widget.MaterialComponents.Chip.Filter" />
-
-            <com.google.android.material.chip.Chip
-                android:layout_marginLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pemula"
-                android:tag="Pemula"
-                style="@style/Widget.MaterialComponents.Chip.Filter" />
-
-            <com.google.android.material.chip.Chip
-                android:layout_marginLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Menengah"
-                android:tag="Menengah"
-                style="@style/Widget.MaterialComponents.Chip.Filter" />
-
-            <com.google.android.material.chip.Chip
-                android:layout_marginLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ahli"
-                android:tag="Ahli"
-                style="@style/Widget.MaterialComponents.Chip.Filter" />
-
-        </com.google.android.material.chip.ChipGroup>
-    </LinearLayout>
-
+        tools:itemCount="1"
+        tools:listitem="@layout/jumlah_latihan" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_exercises"
@@ -118,8 +76,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout_chip"
-        tools:listitem="@layout/item_individual_exercise" />
+        app:layout_constraintTop_toBottomOf="@+id/rv_latihan"
+        tools:listitem="@layout/data_latihan" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

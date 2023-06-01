@@ -11,8 +11,8 @@
         android:name="org.d3if2029.workout.ui.HomeFragment"
         android:label="HomeFragment" >
         <action
-            android:id="@+id/action_homeFragment_to_exerciseDetailsFragment"
-            app:destination="@id/exerciseDetailsFragment" />
+            android:id="@+id/action_homeFragment_to_afterHomeFragment2"
+            app:destination="@id/afterHomeFragment" />
     </fragment>
 
     <fragment
@@ -21,10 +21,11 @@
         android:label="fragment_exercise_details"
         tools:layout="@layout/fragment_exercise_details" >
 
+
         <action
-            android:id="@+id/action_exerciseDetailsFragment_to_homeFragment"
-            app:destination="@id/homeFragment"
-            app:popUpTo="@id/homeFragment"
+            android:id="@+id/action_exerciseDetailsFragment_to_afterHomeFragment"
+            app:destination="@id/afterHomeFragment"
+            app:popUpTo="@id/afterHomeFragment"
             app:popUpToInclusive="true" />
     </fragment>
     <fragment
@@ -67,4 +68,17 @@
         android:name="org.d3if2029.workout.ui.GantiPasswordPerusahaanFragment"
         android:label="fragment_ganti_password_perusahaan"
         tools:layout="@layout/fragment_ganti_password_perusahaan" />
+    <fragment
+        android:id="@+id/afterHomeFragment"
+        android:name="org.d3if2029.workout.ui.AfterHomeFragment"
+        android:label="AfterHomeFragment" >
+        <action
+            android:id="@+id/action_afterHomeFragment_to_timerActivity"
+            app:destination="@id/timerActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/timerActivity"
+        android:name="org.d3if2029.workout.ui.TimerActivity"
+        android:label="activity_timer"
+        tools:layout="@layout/activity_timer" />
 </navigation>

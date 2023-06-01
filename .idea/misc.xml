@@ -16,6 +16,9 @@
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/activity_add_workou.xml" value="0.136" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/activity_edit_profile.xml" value="0.2" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/activity_main.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/activity_timer.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/after_home_activity.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/data_latihan.xml" value="0.2" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_blank_aja.xml" value="0.25" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_edit_profile.xml" value="0.25" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_exercise_details.xml" value="0.22509057971014493" />
@@ -27,6 +30,7 @@
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_second.xml" value="0.152" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/fragment_third.xml" value="0.22509057971014493" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/item_individual_exercise.xml" value="0.22509057971014493" />
+        <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/jumlah_latihan.xml" value="0.25" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/workout_add.xml" value="0.22509057971014493" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/layout/workout_item.xml" value="0.22509057971014493" />
         <entry key="..\:/Kuliah/Workout/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
